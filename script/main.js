@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
   // })
   document.querySelector(".song").play();
   resolveFetch().then(animationTimeline());
-});
+})
 
 // Animation Timeline
 const animationTimeline = () => {
